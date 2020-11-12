@@ -8,11 +8,11 @@ int main(int argc, char *argv[]) {
 	int i=10;
 	int *ptr = &i;
 	
-	printf("%i= %d, pi: %p\n", i, ptr);
+	printf("i= %d, pi: %p\n", i, ptr);
 	(*ptr)++;
-	printf("%i= %d, pi: %p\n", i, ptr);
+	printf("i= %d, pi: %p\n", i, ptr);
 	*ptr++;
-	printf("%i= %d, pi: %p\n", i, ptr);
+	printf("i= %d, pi: %p\n", i, ptr);
 	
 	return 0;
 }
